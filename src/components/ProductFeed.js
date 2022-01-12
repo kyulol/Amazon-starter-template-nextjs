@@ -31,6 +31,7 @@ function ProductFeed({products}) {
           />
         ))}
       </div>
+      
         {products.slice(5,).map(({id, title, price, description, category, image}) =>(
           <Product 
             key={id}
